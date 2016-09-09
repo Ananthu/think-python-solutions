@@ -1,0 +1,27 @@
+1.A comparison sort is a type of sorting algorithm that only reads the list elements through a single abstract comparison operation (often a "less than or equal to" operator or a three-way comparison) that determines which of two elements should occur first in the final sorted list
+best case=O(n log(n))
+worst case=O(n^2)
+2.Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong orde
+best case=O(n)
+worst case=O(n^2)
+When it gets compared to the other sorts its very inefficient.
+3.In computer science, radix sort is a non-comparative integer sorting algorithm that sorts data with integer keys by grouping keys by the individual digits which share the same significant position and value..
+4.A sorting algorithm is said to be stable if two objects with equal keys appear in the same order in sorted output as they appear in the input unsorted array. Some sorting algorithms are stable by nature like Insertion sort, Merge Sort, Bubble Sort, etc.
+5.In computer science, bogosort (also permutation sort, stupid sort, slowsort shotgun sort or monkey sort) is a highly ineffective sorting algorithm based on the generate and test paradigm.
+6.The qsort().... function sorts an array with nmemb elements of size size. The base argument points to the start of the array.
+
+The contents of the array are sorted in ascending order according to a comparison function pointed to by compar, which is called with two arguments that point to the objects being compared.
+
+The comparison function must return an integer less than, equal to, or greater than zero if the first argument is considered to be respectively less than, equal to, or greater than the second. If two members compare as equal, their order in the sorted array is undefined.
+
+The qsort_r() function is identical to qsort() except that the comparison function compar takes a third argument. A pointer is passed to the comparison function via arg. In this way, the comparison function does not need to use global variables to pass through arbitrary arguments, and is therefore reentrant and safe to use in threads.
+
+
+------------------------------python---------------------------------------- 
+
+
+Python uses an algorithm called Timsort: Timsort is a hybrid sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. It was invented by Tim Peters in 2002 for use in the Python programming language
+
+
+-------------------------------------------------------------------------------
+7) Python uses the O(n logn) comparison sort because in its worst case, the memory storage is n, and it's fast.

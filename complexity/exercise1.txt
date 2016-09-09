@@ -1,0 +1,6 @@
+1.ALl these are of O(N^3). Because when the algorith gets executed for larger values N^3 the only one really signifies..
+2.it is of Order N^3
+3.It will be in O(g)
+4.O(g)
+5.With the higher order
+6.O(g*h)
